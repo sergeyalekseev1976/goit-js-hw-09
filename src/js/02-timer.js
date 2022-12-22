@@ -32,7 +32,7 @@ const options = {
 
 buttonStart.addEventListener('click', onClickStart);
 function onClickStart() {
-  //   flatpickr(input, (enableTime = false));
+  flatpickr(input, (enableTime = false));
   buttonStart.disabled = true;
   let timerId = setInterval(() => {
     const differenceDate = selectedDate - new Date();
