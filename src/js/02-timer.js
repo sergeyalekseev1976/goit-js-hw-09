@@ -12,7 +12,7 @@ const secondsEL = document.querySelector('span[data-seconds]');
 
 let selectedDate = null;
 
-// buttonStart.disabled = true;
+buttonStart.disabled = true;
 
 const options = {
   enableTime: true,
